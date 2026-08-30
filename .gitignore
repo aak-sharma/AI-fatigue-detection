@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Streamlit specific
+.streamlit/secrets.toml
+.streamlit/config_dev.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+*.cache
+.pytest_cache/
+
+# Testing
+.coverage
+
+# Uploads (if you're storing them)
+uploads/
